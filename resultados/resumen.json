@@ -1,0 +1,167 @@
+{
+  "semilla": 2026,
+  "probabilidades_exactas": {
+    "Unos": 0.5981224279835391,
+    "Doses": 0.5981224279835391,
+    "Treses": 0.5981224279835391,
+    "Cuatros": 0.5981224279835391,
+    "Cincos": 0.5981224279835391,
+    "Seises": 0.5981224279835391,
+    "Trio": 0.21296296296296297,
+    "Poker": 0.020061728395061727,
+    "Full": 0.038580246913580245,
+    "Escalera corta": 0.15432098765432098,
+    "Escalera larga": 0.030864197530864196,
+    "Yahtzee": 0.0007716049382716049,
+    "Chance": 1.0
+  },
+  "contraste": {
+    "filas": [
+      {
+        "lanzamientos": 100,
+        "aciertos": 0,
+        "frecuencia_simulada": 0.0,
+        "probabilidad_exacta": 0.0007716049382716049,
+        "error_absoluto": 0.0007716049382716049,
+        "error_relativo_pct": 100.0
+      },
+      {
+        "lanzamientos": 1000,
+        "aciertos": 1,
+        "frecuencia_simulada": 0.001,
+        "probabilidad_exacta": 0.0007716049382716049,
+        "error_absoluto": 0.00022839506172839513,
+        "error_relativo_pct": 29.60000000000001
+      },
+      {
+        "lanzamientos": 10000,
+        "aciertos": 5,
+        "frecuencia_simulada": 0.0005,
+        "probabilidad_exacta": 0.0007716049382716049,
+        "error_absoluto": 0.0002716049382716049,
+        "error_relativo_pct": 35.199999999999996
+      },
+      {
+        "lanzamientos": 100000,
+        "aciertos": 54,
+        "frecuencia_simulada": 0.00054,
+        "probabilidad_exacta": 0.0007716049382716049,
+        "error_absoluto": 0.0002316049382716049,
+        "error_relativo_pct": 30.016
+      },
+      {
+        "lanzamientos": 1000000,
+        "aciertos": 784,
+        "frecuencia_simulada": 0.000784,
+        "probabilidad_exacta": 0.0007716049382716049,
+        "error_absoluto": 1.239506172839508e-05,
+        "error_relativo_pct": 1.6064000000000023
+      }
+    ],
+    "teorica": 0.0007716049382716049
+  },
+  "configuraciones": {
+    "filas": [
+      {
+        "estrategia": "aleatoria",
+        "retencion": "sin retencion",
+        "partidas": 10000,
+        "media": 45.5197,
+        "desviacion": 18.078570059037798,
+        "error_estandar": 0.180785700590378,
+        "ic95_inferior": 45.16536002684286,
+        "ic95_superior": 45.87403997315714,
+        "minimo": 11,
+        "maximo": 136,
+        "p50": 41.0
+      },
+      {
+        "estrategia": "codiciosa",
+        "retencion": "sin retencion",
+        "partidas": 10000,
+        "media": 110.6915,
+        "desviacion": 28.703102873408234,
+        "error_estandar": 0.2870310287340823,
+        "ic95_inferior": 110.1289191836812,
+        "ic95_superior": 111.2540808163188,
+        "minimo": 32,
+        "maximo": 235,
+        "p50": 108.0
+      },
+      {
+        "estrategia": "codiciosa",
+        "retencion": "por objetivo",
+        "partidas": 10000,
+        "media": 205.9171,
+        "desviacion": 38.86213908388751,
+        "error_estandar": 0.38862139083887515,
+        "ic95_inferior": 205.1554020739558,
+        "ic95_superior": 206.6787979260442,
+        "minimo": 100,
+        "maximo": 336,
+        "p50": 204.0
+      },
+      {
+        "estrategia": "bono",
+        "retencion": "sin retencion",
+        "partidas": 10000,
+        "media": 109.4586,
+        "desviacion": 28.38617733239815,
+        "error_estandar": 0.2838617733239815,
+        "ic95_inferior": 108.902230924285,
+        "ic95_superior": 110.014969075715,
+        "minimo": 35,
+        "maximo": 226,
+        "p50": 107.0
+      },
+      {
+        "estrategia": "bono",
+        "retencion": "por objetivo",
+        "partidas": 10000,
+        "media": 207.3393,
+        "desviacion": 41.92158295462782,
+        "error_estandar": 0.41921582954627823,
+        "ic95_inferior": 206.5176369740893,
+        "ic95_superior": 208.16096302591072,
+        "minimo": 88,
+        "maximo": 334,
+        "p50": 203.0
+      }
+    ]
+  },
+  "convergencia": {
+    "resumen": "bono: n=50,000 | media=206.70 | sd=41.54 | EE=0.186 | IC95 %=(206.33, 207.06) | min=75 max=338",
+    "media": 206.69614,
+    "desviacion": 41.53734604091506,
+    "error_estandar": 0.18576065870483568,
+    "ic95": [
+      206.33204910893855,
+      207.06023089106148
+    ],
+    "tabla": [
+      {
+        "iteraciones": 100,
+        "media": 213.24,
+        "desviacion": 45.511929837964,
+        "error_estandar": 4.551192983796399,
+        "error_relativo_pct": 2.1343054697975985
+      },
+      {
+        "iteraciones": 1000,
+        "media": 206.986,
+        "desviacion": 40.50351019773889,
+        "error_estandar": 1.2808334545671183,
+        "error_relativo_pct": 0.6188019743205426
+      },
+      {
+        "iteraciones": 10000,
+        "media": 207.3393,
+        "desviacion": 41.92158295462782,
+        "error_estandar": 0.41921582954627823,
+        "error_relativo_pct": 0.20218831140371277
+      }
+    ],
+    "n": 50000
+  },
+  "duracion_s": 468.3
+}
