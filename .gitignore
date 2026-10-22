@@ -11,6 +11,7 @@ venv/
 # Herramientas internas de maquetación: no forman parte de la entrega.
 # Se conservan en local para poder regenerar el documento, pero no se publican.
 docs/build/
+docs/video/
 scripts/build_apa_docx.py
 scripts/export_docx.ps1
 

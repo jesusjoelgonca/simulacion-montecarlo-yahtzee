@@ -43,8 +43,7 @@ experimentalmente la ley de los grandes números.
 ├── resultados/                  # Evidencia versionada (CSV + figuras + resumen.json)
 └── docs/
     ├── Gonzalez_Jesus_Montecarlo.pdf    # Documento técnico
-    ├── Gonzalez_Jesus_Montecarlo.docx
-    └── video/                   # Guion y presentación de apoyo del video
+    └── Gonzalez_Jesus_Montecarlo.docx
 ```
 
 ## Instalación
