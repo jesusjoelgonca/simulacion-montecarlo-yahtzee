@@ -2,11 +2,14 @@
 __pycache__/
 *.py[cod]
 *.egg-info/
-build/
-dist/
+/build/
+/dist/
 .venv/
 venv/
 .env
+
+# Nota: docs/build/ NO se ignora. Ahí vive contenido.html, la fuente del
+# documento; solo se ignoran los directorios build/ y dist/ de la raíz.
 
 # Nota: resultados/ SÍ se versiona a propósito. Las figuras y los CSV son la
 # evidencia de la simulación y permiten revisar el informe sin volver a ejecutar
