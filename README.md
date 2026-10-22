@@ -39,14 +39,12 @@ experimentalmente la ley de los grandes números.
 ├── tests/                       # 56 pruebas unitarias
 ├── scripts/
 │   ├── experimentos.py          # Los cuatro experimentos -> resultados/*.csv
-│   ├── figuras.py               # Los CSV -> resultados/figuras/*.png
-│   ├── build_apa_docx.py        # contenido.html -> documento APA
-│   └── export_docx.ps1          # Refresca campos y exporta el PDF
+│   └── figuras.py               # Los CSV -> resultados/figuras/*.png
 ├── resultados/                  # Evidencia versionada (CSV + figuras + resumen.json)
 └── docs/
-    ├── Gonzalez_Jesus_Montecarlo.pdf
+    ├── Gonzalez_Jesus_Montecarlo.pdf    # Documento técnico
     ├── Gonzalez_Jesus_Montecarlo.docx
-    └── build/contenido.html     # Fuente del documento
+    └── video/                   # Guion y presentación de apoyo del video
 ```
 
 ## Instalación
@@ -59,11 +57,10 @@ source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -e .
 ```
 
-Para regenerar el documento y las figuras hacen falta además `numpy`, `matplotlib`,
-`python-docx`, `beautifulsoup4` y `lxml`:
+Para regenerar las figuras hace falta además `matplotlib`:
 
 ```bash
-pip install -e ".[docs]"
+pip install -e ".[figuras]"
 ```
 
 ## Uso
@@ -101,8 +98,6 @@ turno, que es lo que se usa en el video para explicar cómo decide cada estrateg
 ```bash
 python scripts/experimentos.py     # ~8 minutos; escribe resultados/*.csv
 python scripts/figuras.py          # escribe resultados/figuras/*.png
-python scripts/build_apa_docx.py   # escribe docs/Gonzalez_Jesus_Montecarlo.docx
-powershell -ExecutionPolicy Bypass -File scripts/export_docx.ps1   # exporta el PDF
 ```
 
 Los cuatro experimentos usan la semilla 2026 y tardaron 468 segundos en un portátil

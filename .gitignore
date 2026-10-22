@@ -8,8 +8,11 @@ __pycache__/
 venv/
 .env
 
-# Nota: docs/build/ NO se ignora. Ahí vive contenido.html, la fuente del
-# documento; solo se ignoran los directorios build/ y dist/ de la raíz.
+# Herramientas internas de maquetación: no forman parte de la entrega.
+# Se conservan en local para poder regenerar el documento, pero no se publican.
+docs/build/
+scripts/build_apa_docx.py
+scripts/export_docx.ps1
 
 # Nota: resultados/ SÍ se versiona a propósito. Las figuras y los CSV son la
 # evidencia de la simulación y permiten revisar el informe sin volver a ejecutar
