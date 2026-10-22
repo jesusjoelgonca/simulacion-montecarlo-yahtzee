@@ -1,0 +1,19 @@
+# Entornos y caché
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.env
+
+# Nota: resultados/ SÍ se versiona a propósito. Las figuras y los CSV son la
+# evidencia de la simulación y permiten revisar el informe sin volver a ejecutar
+# los experimentos.
+
+# Editores y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
